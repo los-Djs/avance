@@ -30,7 +30,7 @@ Below, we are going to list the software we are going to need:
 
 ## Data source:
 
-For this project, there is no need fore real data, using the initial conditions is enough.
+For this project, there is no need for real data, using the initial conditions is enough.
 
 ## References:
 [1] Rouan, D. (2011). Radiative Transfer. Encyclopedia of Astrobiology, 1410–1413. https://doi.org/10.1007/978-3-642-11274-4_1336 
