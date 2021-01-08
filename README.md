@@ -8,7 +8,7 @@
 
 ## Issue:
 
-We all have some source of light in our house that feels warmn, but have we ever wondered thoy or how? Well, in order to answer this question, we are going yo develop our project with help of radiative transfer.
+We all have some source of light in our house that feels warmn, but have we ever wondered thoy or how? Well, in order to answer this question, we are going to develop our project with help of radiative transfer.
 
 ## Model:
 
