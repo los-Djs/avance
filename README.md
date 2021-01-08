@@ -8,12 +8,12 @@
 
 ## Issue:
 
-We all have some source of light in our house that feels warm, but have we ever wondered thoy or how? Well, in order to answer this question, we are going to develop our project with help of radiative transfer.
+We all have some source of light in our house that feels warm, but have we ever wondered why or how? Well, in order to answer this question, we are going to develop our project with help of radiative transfer.
 
 ## Model:
 
 Radiative Transfer, is the physical phenomenon of energy transfer in the form of electromagnetic radiation.
-The propagation of radiation through a medium is affected by abosrption, emission, and scattering processes. It's basically how energy interacts with the matter through which this is transfered.
+The propagation of radiation through a medium is affected by absorption, emission, and scattering processes. It's basically how energy interacts with the matter through which this is transfered.
 
 
 ## Goal:
