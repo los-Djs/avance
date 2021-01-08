@@ -13,7 +13,7 @@ We all have some source of light in our house that feels warmn, but have we ever
 ## Model:
 
 Radiative Transfer, is the physical phenomenon of energy transfer in the form of electromagnetic radiation.
-The progragation of radiation through a medium is affected by abosrption, emission, and scattering processes. It's basically how energy interacts with the matter through which this is transfered.
+The propagation of radiation through a medium is affected by abosrption, emission, and scattering processes. It's basically how energy interacts with the matter through which this is transfered.
 
 
 ## Goal:
@@ -21,7 +21,7 @@ Our goal is to implement the radiative transfer model for a few simple controlle
 
 ## Software Tools:
 
-<!-- We have in minf to use these three software tools, if oth -->
+<!-- We have in mind to use these three software tools, if oth -->
 Below, we are going to list the software we are going to need:
 
 1. Python
