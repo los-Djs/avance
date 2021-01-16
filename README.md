@@ -28,7 +28,7 @@ Where <img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau" title=""
 
 <!---\frac{\delta x}{2}(k_i + k_{i + 1})-->
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{\Delta{x}}{2}(k_i+k_{i+1})" title="" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{\DELTA{x}}{2}(k_i+k_{i+1})" title="" />
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{\delta{x}}{2}(k_i+k_{i+1})" title="" />
 
