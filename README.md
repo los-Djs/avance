@@ -19,9 +19,9 @@ The progragation of radiation through a medium is affected by abosrption, emissi
 ## Goal:
 Our goal is to implement the radiative transfer model for a few simple controlled cases succesfully. For this, we are going to solve the radiative transfer equation, but in it's discretized form for simplicity. The discretized form is the following:
 
-$$I_{i+1} = I_i e^{-\tai} + S_{\nu}(I_{i+1})(1-e^{-\tai})$$
+$$I_{i+1} = I_i e^{-\tau} + S_{\nu}(I_{i+1})(1-e^{-\tau})$$
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{i+1}=I_{i}e^{- \tai} + S_{\nu}(I_{i+1})(1-e^{-\tai})" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{i+1}=I_{i}e^{-\tau} + S_{\nu}(I_{i+1})(1-e^{-\tau})" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
 
 Where $\tai$ is defined as
