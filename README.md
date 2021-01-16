@@ -21,6 +21,9 @@ Our goal is to implement the radiative transfer model for a few simple controlle
 
 $$I_{i+1} = I_i e^{-\tai} + S_{\nu}(I_{i+1})(1-e^{-\tai})$$
 
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{i+1} = I_i e^{-\tai} + S_{\nu}(I_{i+1})(1-e^{-\tai})" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+
+
 Where $\tai$ is defined as
 $$
 \frac{\delta x}{2}(k_i + k_{i + 1})
@@ -31,7 +34,6 @@ and $k = \nu f T/\ro$  where $f$ is the value of the ~~something i don't remeber
 and $k = \nu f T/\ro$  where $f$ is the value of the ~~something i don't remeber~~, <img src="https://latex.codecogs.com/svg.latex?\Large&space;T" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
  is a vector of size n  with the temperature at each step and $\ro$ is another vector of the same size with the density.
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;T" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
 ## Software Tools:
 
