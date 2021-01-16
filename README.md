@@ -21,10 +21,10 @@ Our goal is to implement the radiative transfer model for a few simple controlle
 
 $$I_{i+1} = I_i e^{-\tau} + S_{\nu}(I_{i+1})(1-e^{-\tau})$$
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{i+1}=I_{i}e^{-\tau} + S_{\nu}(I_{i+1})(1-e^{-\tau})" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{i+1}=I_{i}e^{-\tau}+ S_{\nu}(I_{i+1})(1-e^{-\tau})" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
 
-Where $\tai$ is defined as
+Where $\tau$ is defined as
 $$
 \frac{\delta x}{2}(k_i + k_{i + 1})
 $$
