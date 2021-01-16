@@ -25,11 +25,10 @@ Our goal is to implement the radiative transfer model for a few simple controlle
 
 
 Where <img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" /> is defined as
-$$
-<!---\frac{\delta x}{2}(k_i + k_{i + 1})-->
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{\delta x}{2}(k_i + k_{i + 1})" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
-$$
+<!---\frac{\delta x}{2}(k_i + k_{i + 1})-->
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{\delta x}{2} (k_i + k_{i + 1})" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+
 
 and $k = \nu f T/\ro$  where $f$ is the value of the ~~something i don't remeber~~, $T$ is a vector of size n  with the temperature at each step and $\ro$ is another vector of the same size with the density.
 
