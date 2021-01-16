@@ -49,3 +49,6 @@ For this proyect, there is no need fore real data, using the initial conditions 
 [3] Radiative Transfer Equation - an overview | ScienceDirect Topics. (2013). Retrieved January 8, 2021, from Sciencedirect.com website: https://www.sciencedirect.com/topics/engineering/radiative-transfer-equation
 
 [4] Radiative Transfer - an overview | ScienceDirect Topics. (2017). Retrieved January 8, 2021, from Sciencedirect.com website: https://www.sciencedirect.com/topics/earth-and-planetary-sciences/radiative-transfer
+
+
+$[\![e]\!]$ prb
