@@ -19,14 +19,16 @@ The progragation of radiation through a medium is affected by abosrption, emissi
 ## Goal:
 Our goal is to implement the radiative transfer model for a few simple controlled cases succesfully. For this, we are going to solve the radiative transfer equation, but in it's discretized form for simplicity. The discretized form is the following:
 
-[//]: <> $$I_{i+1} = I_i e^{-\tau} + S_{\nu}(I_{i+1})(1-e^{-\tau})$$
 
+<!--- $$I_{i+1} = I_i e^{-\tau} + S_{\nu}(I_{i+1})(1-e^{-\tau})$$-->
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{i+1}=I_{i}e^{-\tau}+S_{\nu}(I_{i+1})(1-e^{-\tau})" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
 
-Where $\tau$ is defined as
+Where <img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" /> is defined as
 $$
-\frac{\delta x}{2}(k_i + k_{i + 1})
+<!---\frac{\delta x}{2}(k_i + k_{i + 1})-->
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{\delta x}{2}(k_i + k_{i + 1})" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+
 $$
 
 and $k = \nu f T/\ro$  where $f$ is the value of the ~~something i don't remeber~~, $T$ is a vector of size n  with the temperature at each step and $\ro$ is another vector of the same size with the density.
