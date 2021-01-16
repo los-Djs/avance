@@ -27,6 +27,8 @@ Our goal is to implement the radiative transfer model for a few simple controlle
 Where <img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" /> is defined as
 
 <!---\frac{\delta x}{2}(k_i + k_{i + 1})-->
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{\delta}{2}(k_i+k_{i+1})" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{x}{2}(k_i+k_{i+1})" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
