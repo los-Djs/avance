@@ -21,7 +21,7 @@ Our goal is to implement the radiative transfer model for a few simple controlle
 
 $$I_{i+1} = I_i e^{-\tai} + S_{\nu}(I_{i+1})(1-e^{-\tai})$$
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{i+1} = I_i e^{-\tai} + S_{\nu}(I_{i+1})(1-e^{-\tai})" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{i+1}=I_{i} e^{-\tai} + S_{\nu}(I_{i+1})(1-e^{-\tai})" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
 
 Where $\tai$ is defined as
@@ -57,4 +57,3 @@ For this proyect, there is no need fore real data, using the initial conditions 
 [4] Radiative Transfer - an overview | ScienceDirect Topics. (2017). Retrieved January 8, 2021, from Sciencedirect.com website: https://www.sciencedirect.com/topics/earth-and-planetary-sciences/radiative-transfer
 
 
-$[\![e]\!]$ prb
