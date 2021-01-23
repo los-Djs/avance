@@ -51,6 +51,13 @@ Below, we are going to list the python libraries we are going to need:
 
 For this proyect, there is no need fore real data, using the initial conditions is enough.0
 
+##Diagram
+
+GOAL: Calculate how far in cm the spotlight's radiation reaches within or outside water steam.
+Water steam is affected by temperature (°C) which changes spotlight's radiation distance; our
+task is to create a model in order to achieve the *GOAL* with any temperature.
+
+
 ## References:
 [1] Rouan, D. (2011). Radiative Transfer. Encyclopedia of Astrobiology, 1410–1413. https://doi.org/10.1007/978-3-642-11274-4_1336 
 
