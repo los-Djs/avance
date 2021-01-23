@@ -28,7 +28,7 @@ Where <img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau" title=""
 
 <!---\frac{\delta x}{2}(k_i + k_{i + 1})-->
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{\Delta{x}}{2}{(k_i+k_{i+1})}" title="dt"/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{\Delta{x}}{2}(k_i+k_{i+1})" title="dt"/>
 
 <!---and $k = \nu f T/\ro$  where $f$ is the value of the ~~something i don't remeber~~, $T$ is a vector of size n  with the temperature at each step and $\ro$ is another vector of the same size with the density.-->
 
