@@ -10,13 +10,14 @@ def tao (delta_x, k_i, k_i1 ):
 
 if __name__   == '__main__':
     ## data
+    N = 10 #numero de iteraciones
     C_s = 7.8e-6
     alpha_line = 0
     nu = 200 #GHz frecuencia de observacion
-    T = [293.15] # grados Kelvin
+    T = [293.15]*N # grados Kelvin equivale a 20 C
     theta = 300 * T 
 
-    ro = [0] #densidad de la nube, con 0 es que no hay nube
+    ro = [0.017] * N  #densidad de la nube, con 0 es que no hay nube y 0.017 es la densidad en kg/m3 para 20 C
     K = 1.380649e-23 # constante de boltzmann joules por kelvin
 
     P = ro*K*T
@@ -30,8 +31,14 @@ if __name__   == '__main__':
 
     delta_x = 100 #cm
 
-    N = 10
 
     k_n = [nu* alpha_h20 * (T_i/ro_i) for T_i, ro_i in zip(T,ro)]
 
-    ## asumiendo que la temperatura es constante y no hay nube de agua
+    ## asumiendo que la temperatura y la densidad son constantantes
+    I = []
+
+    for i in range(N):
+        pass #aqui hay ya va la cosa recursiva        
+
+
+    
