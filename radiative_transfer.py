@@ -20,7 +20,7 @@ if __name__   == '__main__':
     convertida = 0.017/1000 ## 0.017 es la densidad en kg/m3 pasar de kg/m3 a g/cm3 0.017/1000
     ro = [convertida] * N  #densidad de la nube en g/cm3 para 20 C , con 0 es que no hay nube 
 
-    K = 1.380649e-23 # constante de boltzmann joules por kelvin
+    K = 1.380649e-23 # (m2 kg s-2 K-1)
 
     P = convertida*K*T[0]
 
