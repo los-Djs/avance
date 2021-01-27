@@ -6,7 +6,7 @@ def funcion_fuente(nu, k):
 
 
 def tao (delta_x, k_i, k_i1 ):
-    return delta_x/2(k_i + k_i1) 
+    return (delta_x/2)*(k_i + k_i1) 
 
 if __name__   == '__main__':
     ## data
@@ -17,7 +17,9 @@ if __name__   == '__main__':
     T = [293.15]*N # grados Kelvin equivale a 20 C
     theta = 300 * T 
 
-    ro = [0.017] * N  #densidad de la nube, con 0 es que no hay nube y 0.017 es la densidad en kg/m3 para 20 C
+    convertida = 0.017 *(1000/1000000) ## 0.017 es la densidad en kg/m3 pasar de kg/m3 a g/cm3 0.017/1000
+    ro = [convertida] * N  #densidad de la nube en g/cm3 para 20 C , con 0 es que no hay nube 
+
     K = 1.380649e-23 # constante de boltzmann joules por kelvin
 
     P = ro*K*T
@@ -38,7 +40,8 @@ if __name__   == '__main__':
     I = []
 
     for i in range(N):
-        pass #aqui hay ya va la cosa recursiva        
+        pass
+        # pass #aqui  ya va la cosa recursiva        
 
 
     
