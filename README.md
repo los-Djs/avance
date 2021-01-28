@@ -45,7 +45,7 @@ Below, we are going to list the python libraries needed:
 2. Numpy
 3. Matplotlib
 
-## Data source:
+## Data Source:
 
 In order to achieve this proyect, there is no need for real data, using the initial conditions is enough. The initial condition we considered are the following:
 
