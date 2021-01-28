@@ -2,7 +2,7 @@ import numpy as np
 import math
 import matplotlib.pyplot as plt
 
-def plot(I, delta_x, N):
+def plot(I, delta_x, N,save=False):
     paso = []
     acum = 0
     for i in range(N):
@@ -13,8 +13,12 @@ def plot(I, delta_x, N):
     plt.xlabel("Distancia (m)")
     plt.ylabel("Intensidad especifica")
     plt.title("Transferencia radiativa")
+    plt.legend()
     plt.yscale('log')
     plt.show()
+    if save:
+        plt.savefig('radiative_transfer.png')
+    
     
 def tao (delta_x, k_i, k_i1 ):
     delta_x = delta_x/2
