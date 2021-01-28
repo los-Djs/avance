@@ -17,7 +17,7 @@ def plot(I, delta_x, N,save=False):
     plt.yscale('log')
     plt.show()
     if save:
-        plt.savefig('radiative_transfer.png')
+        plt.savefig('Images/radiative_transfer.png')
     
     
 def tao (delta_x, k_i, k_i1 ):
@@ -64,4 +64,4 @@ if __name__   == '__main__':
 
         I.append(aux1 + aux2)    
 
-    plot(I, delta_x, N)
+    plot(I, delta_x, N, save=True)
