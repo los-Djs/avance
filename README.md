@@ -21,7 +21,7 @@ Our goal is to implement the radiative transfer model for a few simple controlle
 
 
 <!--- $$I_{i+1} = I_i e^{-\tau} + S_{\nu}(I_{i+1})(1-e^{-\tau})$$-->
-img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{i+1}=I_{i}e^{-\tau}+S_{\nu}(I_{i})(1-e^{-\tau})" title="" />
+<!---<img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{i+1}=I_{i}e^{-\tau}+S_{\nu}(I_{i})(1-e^{-\tau})" title="" />-->
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{i+1}=I_{i}e^{-\tau}+S_{\nu}(1-e^{-\tau})" title="" />
 
@@ -68,3 +68,5 @@ task is to create a model in order to achieve the *GOAL* with any temperature.
 [4] Radiative Transfer - an overview | ScienceDirect Topics. (2017). Retrieved January 8, 2021, from Sciencedirect.com website: https://www.sciencedirect.com/topics/earth-and-planetary-sciences/radiative-transfer
 
 [5] Engineering ToolBox, (2004). Water Vapor and Saturation Pressure in Humid Air. [online] Available at: https://www.engineeringtoolbox.com/water-vapor-saturation-pressure-air-d_689.html [Accessed 26 January. 2021].
+
+[6] Rosenkranz, P. W. (1998). Water vapor microwave continuum absorption: A comparison of measurements and models. Radio Science, 33(4), 919–928. https://doi.org/10.1029/98rs01182 [Accessed 27 January. 2021].
