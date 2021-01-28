@@ -11,7 +11,9 @@ def plot(I, delta_x, N):
         
     plt.plot( paso  , I,label = 'Simulacion Transferencia')
     plt.xlabel("Distancia (m)")
+    plt.ylabel("Intensidad especifica")
     plt.title("Transferencia radiativa")
+    plt.yscale('log')
     plt.show()
     
 def tao (delta_x, k_i, k_i1 ):
