@@ -43,7 +43,8 @@ Below, we are going to list the Python libraries needed:
 
 1. Python 3
 2. Numpy
-3. Matplotlib
+* matplotlib==3.3.2
+
 
 ## Data Source:
 
