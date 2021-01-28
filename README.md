@@ -39,7 +39,7 @@ and  <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;k=\nu{f}\f
 
 ## Software Tools:
 
-Below, we are going to list the python libraries we are going to need:
+Below, we are going to list the python libraries needed:
 
 1. Python 3
 2. Numpy
