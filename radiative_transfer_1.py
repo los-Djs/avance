@@ -44,6 +44,7 @@ if __name__   == '__main__':
 
     k_n = [nu* k * (T_i/ro_i) for T_i, ro_i in zip(T,ro)]
 
+    I = [0.0] #intensidad inicial
     for i in range(1,N):
         
         # S_nu = funcion_fuente(nu, k)
