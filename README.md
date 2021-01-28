@@ -60,7 +60,7 @@ In order to achieve this proyect, there is no need for real data, using the init
 
 Which resulted in this  equation:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;{\alpha_{H_2O}}={({C_s}{\nu^{2}}{\theta^{3}}{P_{H_2O}^{2}})}+X {\alpha_{line}}" title="alphah2o"/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;{\alpha_{H_2O}}=({C_s}{\nu^{2}}{\theta^{3}}{P_{H_2O}^{2}})+X {\alpha_{line}}" title="alphah2o"/>
 
 * theta = 300/T where T is the temperature and its adymensional
 
