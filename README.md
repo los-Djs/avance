@@ -21,7 +21,7 @@ Our goal is to implement the radiative transfer model for a few simple controlle
 
 
 <!--- $$I_{i+1} = I_i e^{-\tau} + S_{\nu}(I_{i+1})(1-e^{-\tau})$$-->
-<!---<img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{i+1}=I_{i}e^{-\tau}+S_{\nu}(I_{i})(1-e^{-\tau})" title="" /> -->
+img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{i+1}=I_{i}e^{-\tau}+S_{\nu}(I_{i})(1-e^{-\tau})" title="" />
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{i+1}=I_{i}e^{-\tau}+S_{\nu}(1-e^{-\tau})" title="" />
 
