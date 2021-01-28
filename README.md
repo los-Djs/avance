@@ -8,16 +8,16 @@
 
 ## Issue:
 
-We all have some source of light in our house that feels warm, but have we ever wondered why or how? Well, in order to answer this question, we are going yo develop our project with help of radiative transfer.
+We all have some source of light in our houses that feels warm, but have we ever wondered why or how? Well, to answer this question, we are going to develop our project with help of radiative transfer.
 
 ## Model:
 
 Radiative Transfer, is the physical phenomenon of energy transfer in the form of electromagnetic radiation.
-The progragation of radiation through a medium is affected by abosrption, emission, and scattering processes. It's basically how energy interacts with the matter through which this is transfered.
+The progragation of radiation through a medium is affected by absorption, emission, and scattering processes. It's basically how energy interacts with the matter through which this is transfered.
 
 
 ## Goal:
-Our goal is to implement the radiative transfer model for a few simple controlled cases succesfully. For this, we are going to solve the radiative transfer equation, but in it's discretized form for simplicity. The discretized form is the following:
+Our goal is to implement the radiative transfer model for a few simple controlled cases, succesfully. For this, we are going to solve the radiative transfer equation, but in its discretized form for simplicity. The discretized form is the following:
 
 
 <!--- $$I_{i+1} = I_i e^{-\tau} + S_{\nu}(I_{i+1})(1-e^{-\tau})$$-->
@@ -47,7 +47,7 @@ Below, we are going to list the python libraries we are going to need:
 
 ## Data source:
 
-For this proyect, there is no need fore real data, using the initial conditions is enough.0
+In order to achieve this proyect, there is no need for real data, using the initial conditions is enough.0
 
 ## Diagram:
 
