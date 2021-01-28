@@ -56,11 +56,11 @@ In order to achieve this proyect, there is no need for real data, using the init
 * T is the temperature in K
 * alpha_h20 is the opacity of water derivated  from the following ecuation [Rosenkranz, 1990][6]:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;C_s=\nu^{-2}\theta^{-3}P^{-2}_{H_2 O}(\alpha_{H_2 O}-\alpha_{line})" title="C_s"/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;C_s=\nu^{-2}\theta^{-3}P^{-2}_{H_2O}(\alpha_{H_2O}-\alpha_{line})" title="C_s"/>
 
 Which resulted in this  equation:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\alpha_{H_2 O}=(C_s\nu^2\theta^3P_{H_2 O}^2)+\alpha_{line}" title="alpha_h2o"/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\alpha_{H_2O}=(C_s\nu^2\theta^3P_{H_2O}^2)+\alpha_{line}" title="alpha_h2o"/>
 
 * theta = 300/T where T is the temperature and its adymensional
 
