@@ -34,7 +34,7 @@ Where <img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau" title=""
 <!---and $k = \nu f T/\ro$  where $f$ is the value of the ~~something i don't remeber~~, $T$ is a vector of size n  with the temperature at each step and $\ro$ is another vector of the same size with the density.-->
 
 
-and  <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;k=\nu{f} {\frac{T}{\rho}}" title=""/>   where <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;f" title="" />  is the opacity value of the medium/material it is going thru, <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;T" title="" /> is a vector of size n  with the temperature at each step and <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;\rho" title="" /> is another vector of the same size with the density.
+and  <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;k=\nu{f}{\frac{T}{\rho}}" title=""/>   where <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;f" title="" />  is the opacity value of the medium/material it is going thru, <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;T" title="" /> is a vector of size n  with the temperature at each step and <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;\rho" title="" /> is another vector of the same size with the density.
 
 
 ## Software Tools:
