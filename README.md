@@ -47,7 +47,7 @@ Below, we are going to list the Python libraries needed:
 
 ## Data Source:
 
-In order to achieve this proyect, there is no need for real data, using the initial conditions is enough. The initial condition we considered are the following:
+In order to achieve this proyect, there is no need for real data, using only the initial conditions is enough. The initial condition we considered are the following:
 
 * Cs = 7.8e-6 s^6 kg^2 m
 * nu = 200 GHz
