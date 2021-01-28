@@ -47,7 +47,24 @@ Below, we are going to list the python libraries we are going to need:
 
 ## Data source:
 
-In order to achieve this proyect, there is no need for real data, using the initial conditions is enough.0
+In order to achieve this proyect, there is no need for real data, using the initial conditions is enough. The initial condition we considered are the following:
+
+* Cs = 7.8e-6 s^6 kg^2 m
+* nu = 200 GHz
+* K = 1.380649e-23 m^2 kg s^-2 K^-1 Boltzman constant
+* N = 10 number of iterations
+* T is the temperature in K
+* alpha_h20 is the opacity of water derivated  from the following ecuation [Rosenkranz, 1990][6]:
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;C_s = \nu^{-2}\theta^{-3}P^{-2}_{H_2 O}(\alpha_{H_2 O} - \alpha_{line})" title="C_s"/>
+
+Which resulted in this  equation:
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\alpha_{H_2 O} = (C_s \nu^2 \theta^3 P_{H_2 O}^2) + \alpha_{line}" title="alpha_h2o"/>
+
+* theta = 300/T where T is the temperature and its adymensional
+
+* P_H2O is the pressure of  water vapor calculated by: <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;P = \rho K T" title="" /> 
 
 ## Diagram:
 
@@ -56,6 +73,14 @@ Water steam is affected by temperature (K) which changes spotlight's radiation d
 task is to create a model in order to achieve the *GOAL* with any temperature.
 
 ![Diagrama1_3](https://user-images.githubusercontent.com/60753156/105610443-2c41d200-5d75-11eb-8c14-06c8ace41345.png)
+
+
+## Results:
+
+This a graph generated in a logarithm scale:
+
+![Plot](/Images/radiative_transfer.png)
+
 
 
 ## References:
