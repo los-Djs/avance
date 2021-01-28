@@ -17,10 +17,10 @@ if __name__   == '__main__':
     T = [293.15]*N # grados Kelvin equivale a 20 C
     theta = 300/T[0]
 
-    convertida = 0.017/1000 ## 0.017 es la densidad en kg/m3 pasar de kg/m3 a g/cm3 0.017/1000
-    ro = [convertida] * N  #densidad de la nube en g/cm3 para 20 C , con 0 es que no hay nube 
+    convertida = 0.017/1000 ## 0.017 es la densidad en kg/m^3 pasar de kg/m^3 a g/cm^3 0.017/1000
+    ro = [convertida] * N  #densidad de la nube en g/cm^3 para 20 C , con 0 es que no hay nube 
 
-    K = 1.380649e-23 # (m2 kg s-2 K-1)
+    K = 1.380649e-23 # (m^2 kg s^-2 K^-1)
 
     P = convertida*K*T[0]
 
