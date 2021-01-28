@@ -52,7 +52,7 @@ In order to achieve this proyect, there is no need for real data, using the init
 ## Diagram:
 
 GOAL: Calculate how far in cm the spotlight's radiation reaches within or outside water steam.  
-Water steam is affected by temperature (°C) which changes spotlight's radiation distance; our
+Water steam is affected by temperature (K) which changes spotlight's radiation distance; our
 task is to create a model in order to achieve the *GOAL* with any temperature.
 
 ![Diagrama1_3](https://user-images.githubusercontent.com/60753156/105610443-2c41d200-5d75-11eb-8c14-06c8ace41345.png)
