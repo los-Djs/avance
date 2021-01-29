@@ -18,7 +18,7 @@ Our goal is to implement the radiative transfer model for a few simple controlle
 
 ## Radiative Transfer: 
 
-Radiative Transfer is the theory of the physical phenomenon of energy transfer in the form of electromagnetic radiation. The propagation of the radiation through a medium is affected by the absorption and the emission of it as well as the wavelenght that its going through. That's what it's descrived in the radiative transfer equcation. This equation has a wide variety of applications, including asytophysics, optics, atmospheric sicence, among others.
+Radiative Transfer is the theory of the physical phenomenon of energy transfer in the form of electromagnetic radiation. The propagation of the radiation through a medium is affected by the absorption and the emission of it as well as the wavelenght that its going through. That's what it's described in the radiative transfer equcation. This equation has a wide variety of applications, including asytophysics, optics, atmospheric sicence, among others.
 
 # Methodology:
 
@@ -39,7 +39,7 @@ Where <img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau" title=""
 <!---and $k = \nu f T/\ro$  where $f$ is the value of the ~~something i don't remeber~~, $T$ is a vector of size n  with the temperature at each step and $\ro$ is another vector of the same size with the density.-->
 
 
-and  <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;k=\nu{\alpha_{H_2O}}\frac{T}{{\rho}}" title=""/>   where <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;\alpha_{H_2O}" title="" />  is the opacity value of the medium/material it is going through, <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;T" title="" /> is a vector of size n  with the temperature at each step and <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;\rho" title="" /> is another vector of the same size with the density.
+and  <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;k=\nu{\alpha_{H_2O}}\frac{T}{{\rho}}" title=""/>   where <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;\alpha_{H_2O}" title="" />  is the opacity value of the medium/material, in this case water vapor, it is going through, <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;T" title="" /> is a vector of size n  with the temperature at each step and <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;\rho" title="" /> is another vector of the same size with the density.
 
 
 ## Data Source:
@@ -63,7 +63,7 @@ Which resulted in this  equation:
 
 * P_H2O is the pressure of  water vapor calculated by: <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;P = \rho K T" title="" /> 
 
-This is because the opacity for a certain frecunecy is dependant on the thermodynamic conditions of the medium that it's traversing
+This is because the opacity for a certain frecunecy is dependant on the thermodynamic conditions of the medium that it's traversing. For this case, we are going to asume that the density, temperature and 
 ## Diagram:
 
 GOAL: Calculate how far in meters the spotlight's radiation reaches within or outside water vapor.  
