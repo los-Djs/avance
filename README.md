@@ -51,7 +51,7 @@ In order to achieve this project, there is no need for real data, using only the
 * Cs = 7.8e-6 s^6 kg^2 m
 * nu = 200 GHz
 * K = 1.380649e-23 m^2 kg s^-2 K^-1 Boltzman constant
-* N = 10 number of iterations
+* N = 100000 number of iterations
 * T is the temperature in K
 * alpha_h20 is the opacity of water derivated  from the following ecuation [Rosenkranz, 1990][6]:
 
@@ -103,6 +103,8 @@ Below, we are going to list the Python libraries needed:
 * Python 3
 * NumPy == 1.19.2
 * Matplotlib == 3.3.2
+* Pandas == 1.1.3
+
 
 ## Conclusions:
 
