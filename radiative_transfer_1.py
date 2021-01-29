@@ -11,7 +11,7 @@ def plot(I, delta_x, N,save=False):
         
     plt.plot( paso  , I,label = 'Simulacion Transferencia')
     plt.xlabel("Distancia (m)")
-    plt.ylabel("Intensidad especifica")
+    plt.ylabel("Intensidad especifica [Joules s^-1 m^-2 Hz^-1  ster^-1]")
     plt.title("Transferencia radiativa")
     plt.legend()
     plt.yscale('log')
