@@ -18,7 +18,7 @@ def plot(I,N,T,delta_x):
     df=pd.DataFrame(I,index=paso,columns=T)
     figure, axes = plt.subplots(2,1)
 
-    ax=df.plot(ax=axes[0],title='Escala Normal')
+    ax=df.plot(ax=axes[0],title='Normal scale')
 
     ax.axvline(100*delta_x,color='r',ls='dotted')
     ax.axvline(10000*delta_x,color='r',ls='dotted')
@@ -31,7 +31,7 @@ def plot(I,N,T,delta_x):
 
 
 
-    ax_1=df.plot(loglog=True,ax=axes[1],title='Escala Logaritmica')
+    ax_1=df.plot(loglog=True,ax=axes[1],title='Logarithmic scale')
 
     ax_1.axvline(100*delta_x,color='r',ls='dotted')
     ax_1.axvline(10000*delta_x,color='r',ls='dotted')
