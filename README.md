@@ -47,6 +47,7 @@ and  <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;k=\nu{\alp
 In order to achieve this project, there is no need for real data, using only the initial conditions is enough. The initial condition we considered are the following:
 
 * Sv = 0 Water vapor does not emit its own light, which makes this variable equal to zero
+* alpha_line = 0 
 * Cs = 7.8e-6 s^6 kg^2 m
 * nu = 200 GHz
 * K = 1.380649e-23 m^2 kg s^-2 K^-1 Boltzman constant
@@ -58,10 +59,11 @@ Which resulted in this  equation:
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;{\alpha_{H_2O}}=({C_s}{\nu^{2}}{\theta^{3}}{P_{H_2O}^{2}})+\alpha_{line}" title="alphah2o"/>
 
-* theta = 300/T wich its dimensionless where T is the temperature
+* theta = 300/T wich it's dimensionless and T is the temperature
 
 * P_H2O is the pressure of  water vapor calculated by: <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;P = \rho K T" title="" /> 
 
+This is because the opacity for a certain frecunecy is dependant on the thermodynamic conditions of the medium that it's traversing
 ## Diagram:
 
 GOAL: Calculate how far in meters the spotlight's radiation reaches within or outside water vapor.  
