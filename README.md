@@ -6,11 +6,7 @@
 * ### Ceja Cruz Eduardo Manuel lalitoceja@gmail.com
 * ### García Olivo Brian Kalid briankalid2000@gmail.com
 
-## Issue:
-
-We all have some source of light in our houses which feels warm, but have we ever wondered why or how? Well, to answer this question we are going to develop our project with help of radiative transfer.
-
-## Model:
+## Introduction:
 
 Radiative Transfer, is the physical phenomenon of energy transfer in the form of electromagnetic radiation.
 The progragation of radiation through a medium is affected by absorption, emission, and scattering processes. It's basically how energy interacts with the matter through which this is transfered.
@@ -42,19 +38,11 @@ Where <img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau" title=""
 and  <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;k=\nu{f}\frac{T}{{\rho}}" title=""/>   where <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;f" title="" />  is the opacity value of the medium/material it is going through, <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;T" title="" /> is a vector of size n  with the temperature at each step and <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;\rho" title="" /> is another vector of the same size with the density.
 
 
-## Software Tools:
-
-Below, we are going to list the Python libraries needed:
-
-* Python 3
-* NumPy == 1.19.2
-* Matplotlib == 3.3.2
-
-
 ## Data Source:
 
-In order to achieve this proyect, there is no need for real data, using only the initial conditions is enough. The initial condition we considered are the following:
+In order to achieve this project, there is no need for real data, using only the initial conditions is enough. The initial condition we considered are the following:
 
+* Sv = 0 Water vapor does not emit its own light, which makes this variable equal to zero
 * Cs = 7.8e-6 s^6 kg^2 m
 * nu = 200 GHz
 * K = 1.380649e-23 m^2 kg s^-2 K^-1 Boltzman constant
@@ -72,8 +60,8 @@ Which resulted in this  equation:
 
 ## Diagram:
 
-GOAL: Calculate how far in cm the spotlight's radiation reaches within or outside water steam.  
-Water steam is affected by temperature (K) which changes spotlight's radiation distance; our
+GOAL: Calculate how far in m the spotlight's radiation reaches within or outside water vapor.  
+Water vapor is affected by temperature and density (K) which change spotlight's radiation distance, in this case temperature and density are taken as constants; our
 task is to create a model in order to achieve the *GOAL* with any temperature.
 
 ![Diagrama1_3](https://user-images.githubusercontent.com/60753156/105610443-2c41d200-5d75-11eb-8c14-06c8ace41345.png)
@@ -84,6 +72,17 @@ task is to create a model in order to achieve the *GOAL* with any temperature.
 This a graph generated in a logarithm scale:
 
 ![Plot](/Images/radiative_transfer.png)
+
+
+## Software Tools:
+
+Below, we are going to list the Python libraries needed:
+
+* Python 3
+* NumPy == 1.19.2
+* Matplotlib == 3.3.2
+
+## Conclusions:
 
 
 
