@@ -88,7 +88,6 @@ python3 radiative_transfer_1.py
 
 This a graph generated in a logarithm scale:
 
-![Plot](/Images/Figure_1.png)
 ![Plot](/Images/Figure_1F.png) 
 <!-- aqui pon la imagen que genera kalid -->
 
