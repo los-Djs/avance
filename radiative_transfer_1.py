@@ -33,7 +33,8 @@ def tao (delta_x, k_i, k_i1 ):
 def alpha_h20(c_s,nu,theta,p):
     return (c_s * (nu**2) * (theta**3) * (p**2))
  
-
+def P(ro,k,t):
+    return ro*k*t
 
 if __name__   == '__main__':
     N = 100000 #numero de iteraciones
@@ -46,7 +47,7 @@ if __name__   == '__main__':
     ro = 0.6 # kg/m^3
     K = 1.380649e-23 # constante de boltzmann   m^2 kg s^-2 K^-1
 
-    P = ro * K * T
+    P = P(ro,K,T)
 
     #alpha_h20 = 
     k = alpha_h20(C_s,nu,theta,P)
