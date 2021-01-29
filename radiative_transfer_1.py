@@ -19,7 +19,11 @@ def plot(I,N,T,delta_x):
 
     figure, axes = plt.subplots(2,1)
 
-    figure.text(0.04, 0.5, 'Specific Intensity [Joules s^-1 m^-2 Hz^-1  ster^-1]', va='center', rotation='vertical')
+    #figure(figsize=()1,1)
+
+    figure.text(0.02, 0.5, 'Specific Intensity [Joules s^-1 m^-2 Hz^-1  ster^-1]', va='center', rotation='vertical')
+
+    #axes[0].figsize=(0,0)
 
     ax=df.plot(ax=axes[0],title='Normal scale')
 
@@ -31,7 +35,7 @@ def plot(I,N,T,delta_x):
             xy=(160, 400), xycoords='figure points',
             fontsize=14)
 
-
+    #ax.figsize=(1,1)
 
 
     ax_1=df.plot(loglog=True,ax=axes[1],title='Logarithmic scale')
