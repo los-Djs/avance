@@ -104,7 +104,7 @@ Below, we are going to list the Python libraries needed:
 
 ## Conclusions:
 
-
+We observe that the water vapor absorbs the 200GHz that it is emitting from the source. It is seen in our graphic, when the light enters the water vapor its intensity is decreasing drastically.
 
 # References:
 [1] Rouan, D. (2011). Radiative Transfer. Encyclopedia of Astrobiology, 1410–1413. https://doi.org/10.1007/978-3-642-11274-4_1336 
