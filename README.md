@@ -16,6 +16,10 @@ The progragation of radiation through a medium is affected by absorption, emissi
 Our goal is to implement the radiative transfer model for a few simple controlled cases, succesfully. For this, we are going to solve the radiative transfer equation, but in its discretized form for simplicity. 
 
 
+## Radiative Transfer: 
+
+Radiative Transfer is the theory of the physical phenomenon of energy transfer in the form of electromagnetic radiation. The propagation of the radiation through a medium is affected by the absorption and the emission of it as well as the wavelenght that its going through. That's what it's descrived in the radiative transfer equcation. This equation has a wide variety of applications, including asytophysics, optics, atmospheric sicence, among others.
+
 # Methodology:
 
 The discretized form is the following:
