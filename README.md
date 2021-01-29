@@ -67,6 +67,22 @@ task is to create a model in order to achieve the *GOAL* with any temperature.
 ![Diagrama1_3](https://user-images.githubusercontent.com/60753156/105610443-2c41d200-5d75-11eb-8c14-06c8ace41345.png)
 
 
+# Instructions
+
+To run this proyect, yo first need to clone the repository using 
+```
+git clone https://github.com/los-Djs/avance
+``` 
+and then if you need, install the dependencies for the proyect by executing
+```
+ pip install -r requirements.txt
+```
+To run the script, run
+```sh
+python3 radiative_transfer_1.py
+```
+
+
 # Results:
 
 This a graph generated in a logarithm scale:
