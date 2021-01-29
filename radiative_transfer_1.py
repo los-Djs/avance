@@ -16,7 +16,10 @@ def plot(I,N,T,delta_x):
      
     T=[T]
     df=pd.DataFrame(I,index=paso,columns=T)
+
     figure, axes = plt.subplots(2,1)
+
+    figure.text(0.04, 0.5, 'Specific Intensity [Joules s^-1 m^-2 Hz^-1  ster^-1]', va='center', rotation='vertical')
 
     ax=df.plot(ax=axes[0],title='Normal scale')
 
@@ -37,7 +40,7 @@ def plot(I,N,T,delta_x):
     ax_1.axvline(10000*delta_x,color='r',ls='dotted')
     ax_1.axvspan(100*delta_x,10000*delta_x,alpha=0.25)
 
-    plt.annotate('Water \n vapor',
+    ax_1.annotate('Water \n vapor',
             xy=(520, 175), xycoords='figure points',
             fontsize=14)
 
@@ -104,7 +107,7 @@ if __name__   == '__main__':
     plot(I,N,T,delta_x)
  
     
-
+    
     plt.savefig('Images/radiative_transfer.png')
 
     plt.show()
