@@ -91,7 +91,7 @@ python3 radiative_transfer_1.py
 
 This a graph generated in a logarithm scale:
 
-![Plot](/Images/radiative_transfer.png)
+![Plot](/Images/Figure_1.png)
 
 
 ## Software Tools:
