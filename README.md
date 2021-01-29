@@ -60,7 +60,7 @@ Which resulted in this  equation:
 
 ## Diagram:
 
-GOAL: Calculate how far in m the spotlight's radiation reaches within or outside water vapor.  
+GOAL: Calculate how far in meters the spotlight's radiation reaches within or outside water vapor.  
 Water vapor is affected by temperature and density (K) which change spotlight's radiation distance; in this case temperature and density are taken as constants. Our
 task is to create a model in order to achieve the *GOAL* with any temperature.
 
