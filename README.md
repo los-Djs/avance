@@ -17,7 +17,12 @@ The progragation of radiation through a medium is affected by absorption, emissi
 
 
 ## Goal:
-Our goal is to implement the radiative transfer model for a few simple controlled cases, succesfully. For this, we are going to solve the radiative transfer equation, but in its discretized form for simplicity. The discretized form is the following:
+Our goal is to implement the radiative transfer model for a few simple controlled cases, succesfully. For this, we are going to solve the radiative transfer equation, but in its discretized form for simplicity. 
+
+
+# Methodology:
+
+The discretized form is the following:
 
 
 <!--- $$I_{i+1} = I_i e^{-\tau} + S_{\nu}(I_{i+1})(1-e^{-\tau})$$-->
@@ -57,13 +62,11 @@ In order to achieve this proyect, there is no need for real data, using only the
 * T is the temperature in K
 * alpha_h20 is the opacity of water derivated  from the following ecuation [Rosenkranz, 1990][6]:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;C_s=\nu^{-2}\theta^{-3}P^{-2}_{H_2O}(\alpha_{H_2O}-\alpha_{line})" title="C_s"/>
-
 Which resulted in this  equation:
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;{\alpha_{H_2O}}=({C_s}{\nu^{2}}{\theta^{3}}{P_{H_2O}^{2}})+\alpha_{line}" title="alphah2o"/>
 
-* theta = 300/T where T is the temperature and its adymensional
+* theta = 300/T wich its dimensionless where T is the temperature
 
 * P_H2O is the pressure of  water vapor calculated by: <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;P = \rho K T" title="" /> 
 
@@ -76,7 +79,7 @@ task is to create a model in order to achieve the *GOAL* with any temperature.
 ![Diagrama1_3](https://user-images.githubusercontent.com/60753156/105610443-2c41d200-5d75-11eb-8c14-06c8ace41345.png)
 
 
-## Results:
+# Results:
 
 This a graph generated in a logarithm scale:
 
@@ -84,7 +87,7 @@ This a graph generated in a logarithm scale:
 
 
 
-## References:
+# References:
 [1] Rouan, D. (2011). Radiative Transfer. Encyclopedia of Astrobiology, 1410–1413. https://doi.org/10.1007/978-3-642-11274-4_1336 
 
 [2] Wikipedia Contributors. (2020, December 23). Radiative transfer. Retrieved January 8, 2021, from Wikipedia website: https://en.wikipedia.org/wiki/Radiative_transfer
