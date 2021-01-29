@@ -63,7 +63,7 @@ Which resulted in this  equation:
 
 * P_H2O is the pressure of  water vapor calculated by: <img src="https://latex.codecogs.com/svg.latex?\normalsize&space;P = \rho K T" title="" /> 
 
-This is because the opacity for a certain frecunecy is dependant on the thermodynamic conditions of the medium that it's traversing. For this case, we are going to asume that the density, temperature and 
+This is because the opacity for a certain frecunecy is dependant on the thermodynamic conditions of the medium that it's traversing. For this case, we are going to asume that the density and temperature of the water vapor are constant.
 ## Diagram:
 
 GOAL: Calculate how far in meters the spotlight's radiation reaches within or outside water vapor.  
